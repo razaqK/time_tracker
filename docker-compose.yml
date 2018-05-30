@@ -1,4 +1,4 @@
-version: '2.1'
+version: '2'
 services:
   tracker:
     build: .
@@ -11,20 +11,17 @@ services:
         - ./.env
     container_name: tracker
     depends_on:
-        db:
-          condition: service_healthy
+        - mysql
 
-  db:
-    container_name: db
-    image: mysql
-    ports:
-      - "3309"
-    environment:
-      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      MYSQL_USER: "root"
-      MYSQL_PASSWORD: "root"
-      MYSQL_DATABASE: "tracker"
-    healthcheck:
-      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
-      timeout: 20s
-      retries: 10
+  mysql:
+      image: mysql:5.6
+      container_name: mysql
+      environment:
+          # with mysql
+          MYSQL_DATABASE: tracker
+          MYSQL_USER: root
+          MYSQL_ROOT_PASSWORD: root
+      volumes:
+          - ./data/mysql:/var/lib/mysql
+      ports:
+          - "3309:3306"
