@@ -1,0 +1,17 @@
+[Thu May 24 16:46:17.139064 2018] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.10 (Debian) PHP/7.1.14 configured -- resuming normal operations
+[Thu May 24 16:46:17.139638 2018] [core:notice] [pid 30] AH00094: Command line: '/usr/sbin/apache2'
+[Thu May 24 16:58:02.588610 2018] [core:warn] [pid 30] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 24 16:58:02.594119 2018] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.10 (Debian) PHP/7.1.14 configured -- resuming normal operations
+[Thu May 24 16:58:02.595667 2018] [core:notice] [pid 30] AH00094: Command line: '/usr/sbin/apache2'
+[Thu May 24 17:28:28.659106 2018] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.10 (Debian) PHP/7.1.14 configured -- resuming normal operations
+[Thu May 24 17:28:28.659756 2018] [core:notice] [pid 29] AH00094: Command line: '/usr/sbin/apache2'
+[Fri May 25 05:03:49.044070 2018] [mpm_prefork:notice] [pid 28] AH00163: Apache/2.4.25 (Debian) PHP/7.2.5 configured -- resuming normal operations
+[Fri May 25 05:03:49.045618 2018] [core:notice] [pid 28] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 26 08:07:16.830856 2018] [mpm_prefork:notice] [pid 28] AH00169: caught SIGTERM, shutting down
+[Sat May 26 08:07:17.758556 2018] [mpm_prefork:notice] [pid 226] AH00163: Apache/2.4.25 (Debian) PHP/7.2.5 configured -- resuming normal operations
+[Sat May 26 08:07:17.759466 2018] [core:notice] [pid 226] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 26 08:34:28.513699 2018] [core:warn] [pid 30] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 26 08:34:28.516936 2018] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.25 (Debian) PHP/7.2.5 configured -- resuming normal operations
+[Sat May 26 08:34:28.517458 2018] [core:notice] [pid 30] AH00094: Command line: '/usr/sbin/apache2'
+[Tue May 29 18:29:09.604539 2018] [mpm_prefork:notice] [pid 28] AH00163: Apache/2.4.25 (Debian) PHP/7.2.6 configured -- resuming normal operations
+[Tue May 29 18:29:09.605281 2018] [core:notice] [pid 28] AH00094: Command line: '/usr/sbin/apache2'

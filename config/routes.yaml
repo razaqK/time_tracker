@@ -1,0 +1,34 @@
+create_task:
+    path: /api/task
+    controller: App\Controller\Api\TaskController::create
+    methods:  [POST]
+get_task:
+    path: /api/tasks
+    controller: App\Controller\Api\TaskController::fetch
+    methods:  [GET]
+edit_task:
+    path: /api/task/{id}
+    controller: App\Controller\Api\TaskController::edit
+    methods:  [PUT]
+change_task_status:
+    path: /api/task/{id}/status
+    controller: App\Controller\Api\TaskController::changeStatus
+    methods:  [PUT]
+
+start_tracker:
+    path: /api/tracker/start
+    controller: App\Controller\Api\TrackerController::start
+    methods:  [POST]
+pause_tracker:
+    path: /api/tracker/{id}/pause
+    controller: App\Controller\Api\TrackerController::pause
+    methods:  [PUT]
+resume_tracker:
+    path: /api/tracker/{id}/resume
+    controller: App\Controller\Api\TrackerController::resume
+    methods:  [PUT]
+update_tracker_time:
+    path: /api/tracker/{id}/time
+    controller: App\Controller\Api\TrackerController::updateTime
+    methods:  [PUT]
+
